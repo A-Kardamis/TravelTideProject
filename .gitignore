@@ -1,1 +1,21 @@
 .DS_Store
+
+# === macOS system files ===
+.DS_Store
+
+# === Python cache files ===
+__pycache__/
+*.pyc
+*.pyo
+
+# === Jupyter Notebook checkpoints ===
+.ipynb_checkpoints/
+
+# === Virtual environments ===
+venv/
+.env/
+
+# === Large raw datasets (optional) ===
+# Uncomment if you don't want to push raw CSVs
+# data/raw/*.csv
+
